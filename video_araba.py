@@ -47,7 +47,7 @@ def adjust_brightness_contrast(image, alpha=1.05, beta=10):
     return adjusted
 
 # YOLO modeli
-model = YOLO("yolov8n.pt")
+model = YOLO("best-2.pt")
 cap = cv2.VideoCapture("Drone_Video.mp4")
 
 fps = int(cap.get(cv2.CAP_PROP_FPS))
